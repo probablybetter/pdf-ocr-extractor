@@ -90,7 +90,7 @@ tk.Label(root, text="Output Folder:", bg="#FFEBEE", font=("Helvetica Neue", 12),
 output_entry = tk.Entry(root, width=50, font=("Helvetica Neue", 12), bd=2, relief=tk.SUNKEN)
 output_entry.pack(pady=5)
 tk.Button(root, text="Browse Folder", bg="#E91E63", fg="white", font=("Helvetica Neue", 12), padx=10, pady=5, command=select_output_folder).pack(pady=5)
-tk.Button(root, text="Process PDF", bg="#4CAF50", fg="white", font=("Helvetica Neue", 14), padx=20, pady=10).pack(pady=20)
+tk.Button(root, text="Process PDF", bg="#4CAF50", fg="white", font=("Helvetica Neue", 14), padx=20, pady=10, command=process_pdf).pack(pady=20)
 root.mainloop()
 
 
